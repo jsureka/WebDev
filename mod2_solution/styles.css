@@ -1,0 +1,138 @@
+body {
+	font-family: Agency FB;
+	padding: 0;
+	margin: 0;
+	padding-left: 23px;
+	clear: left;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	padding-right: 25px;
+
+}
+
+#boxmain1{
+
+	background-color: lightgrey;
+	padding-left: 10px;
+	border: 1px solid black;
+	width: 30%;
+	height: 200px;
+	float: left;
+	margin-right: 20px;
+	    margin-bottom: 20px
+}#boxmain2{
+
+	background-color: lightgrey;
+	padding-left: 10px;
+	border: 1px solid black;
+	width: 30%;
+	height: 200px;
+	float: left;
+	margin-right: 20px;
+	    margin-bottom: 20px
+}#boxmain3{
+
+	background-color: lightgrey;
+	padding-left: 10px;
+	border: 1px solid black;
+	width: 30%;
+	height: 200px;
+	float: left;
+	margin-right: 20px;
+	    margin-bottom: 20px
+}
+
+div#box2 {
+   background-color: orange;
+    border: 1px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    position: relative;
+    margin: 0px;
+    width: 105px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+section{
+	clear: right;
+    font-size: x-large;
+    font-weight: 100;
+
+}
+div#box3 {
+   background-color: pink;
+   border: 1px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    position: relative;
+    margin: 0px;
+    width: 105px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+div#box4 {
+   background-color: red;
+    border: 1px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    position: relative;
+    margin: 0px;
+    width: 105px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 10px;
+    color: white;
+}
+@media (min-width: 992px){
+	#boxmain1{
+/*float: left;*/
+	}
+	#boxmain2{
+		/*float: left;*/
+	}
+	#boxmain3{
+		/*float: left;*/
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#boxmain3{
+		width: 87.5%;
+	}
+	#boxmain1{
+		width: 42%;
+	}
+	#boxmain2{
+		width: 42%;
+	}
+}
+@media (max-width: 767px)
+{
+	#boxmain3{
+		width: 90%;
+	}
+	#boxmain1{
+		width: 90%;
+	}
+	#boxmain2{
+		width: 90%;
+	}
+}
