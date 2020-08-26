@@ -1,0 +1,115 @@
+body{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    
+}
+.navbar{
+    width: 100%;
+    background-color: #244DD0 ;
+    opacity: 70%;
+    margin: 0px;
+    height: 13%;
+
+
+}
+.row1-col1{
+    width:50%;
+}
+.row1-col2{
+    width: 50%;
+}
+.navigation{
+
+}
+
+ h1{
+    font-family: 'Lobster' ,cursive;
+    color: whitesmoke;
+    opacity: 100%;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-size: 24px;
+}
+li{
+    display: inline-block;
+    margin-right: 50;
+    color: navy;
+    border: solid 0px navy ;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: white;
+    font-weight: 700;
+    font-family: Verdana, sans-serif;
+}
+li:hover{
+    background-color: gray;
+    color: honeydew;
+}
+ul{
+    float: right;
+    margin-right: 30%;
+    margin-top: -70px;
+    
+
+}
+.intro{
+    background-color: khaki;
+    width: 30%;
+    height: 100%;
+    position: relative;
+    float: right;
+    text-align: center;
+    padding-top: 7%;
+    opacity: 70%;
+}
+span{
+    font-family: Helvetica;
+    font-size: 60;
+    text-align: right ;
+    color: #9D5BF7;
+    font-weight: bold;
+    text-shadow: black;
+    box-shadow: burlywood;
+
+}
+span:hover{
+    color: white;
+    
+}
+.intro:hover{
+    background-color: violet;
+}
+.form{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 60%;
+    margin-left: 20%;
+    border:solid 2px gray;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+h2{
+    text-align: center;
+    font-family: Tahoma;
+}
+form{
+    letter-spacing: 2px;
+}
+label{
+    margin: 30px;
+}
+p{
+    text-align: center;
+    margin: 50px;
+}
+.icons{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
