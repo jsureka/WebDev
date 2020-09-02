@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'quicksand',sans-serif;
+    
+}
+
+a,span,p{
+    font-family: 'roboto',sans-serif;
+    font-weight: 700;
+}
+.header{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 20px ;
+    clear: left;
+}
+.header img{
+    float: left;
+}
+.header h1{
+    font-weight: 600;
+    font-size: 30px ;
+    margin: 10;
+}
+
+.banneer{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    height: 600;
+    width: 100%;
+}
+.col-6{
+    width: 50%;
+    float: left;
+    
+    height: 400px;
+}
+.left{
+
+}
+
+.left h1{
+    font-weight: bold ;
+    font-size: 44px;
+    padding: 30px;
+}
+.left p{
+    padding: 30px;
+    padding-top: 0;
+    letter-spacing: 2px;
+}
+.banner button{
+    padding: 20px 40;
+    border-radius: 40px;
+    margin-left: 20px ;
+    font-size: 20px;
+    box-shadow: none;
+    border:0;
+
+}
+.buy{
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+}
+.learn{
+    color: orangered;
+}
+.buy:hover{
+    color: orangered;
+    background: whitesmoke;
+
+    
+
+}
+.quote{
+    background: lightgray;
+    margin: 20px;
+    border-left:2px solid orange;
+    padding-top: 20px;
+}
+.intro{
+    clear: left;
+    padding-left: 20px;
+}
+.intro img{
+    width: 80px;
+    border-radius: 80px;
+    float: left;
+    margin-right: 20px ;
+}
+.intro h3,h4{
+    font-style: italic;
+    
+}
+.right {
+    text-align: center;
+    text-shadow: grey;
+     
+    position: relative;
+    
+}
+.release{
+    background: green;
+    border-radius: 100px;
+    width: 100px;
+    height: 80px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    float: right;
+    right: 30;
+    top: -30;
+}
+.faq{
+    text-align: center;
+    padding: 30;
+}
+.section {
+        width: 500px;
+        margin-left: 310;
+        text-align: center;
+        color: darkgrey;
+        letter-spacing: 1;
+        line-height: 2;
+}
+.iconbox{
+    width: 100%;
+    height: 200px;
+    background: whitesmoke;
+    margin: 30;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+    background: whitesmoke;
+    height: 100px;
+    text-align: center;
+}
+.included{
+    margin-top:80 ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+li{
+    margin: 20px;
+    font-size: 24;
+    font-family: 'quicksand', sans-serif;
+    text-align: justify;
+    color: darkgrey;
+}
+.fa-check-circle{
+   color: green;
+}
+.devbook{
+   padding-right: 0;
+}
+.devbook-button{
+    padding-left: 50;
+}
+.part{
+    width: 100%;
+    padding-left: 300;
+    margin-top: 20;
+    font-size: 18px;
+    height: 100;
+}
+.col-2{
+    width: 3%;
+    float: left;
+}
+.col-10{
+    width: 97%;
+    float: left;
+}
+.col-10 p{
+    font-weight: 800;
+    color: grey;
+    width: 500;
+
+    margin-top: 10;
+}
+.fa-user-check{
+    color: green;
+}
