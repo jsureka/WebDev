@@ -1,0 +1,106 @@
+h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family: 'Playfair Display', serif;
+}
+.nav-item{
+    margin-right: 80px !important;
+    
+}
+.header{
+    width: 100%;
+}
+.nav-link{
+    color: #b4ad9e !important; 
+}
+.nav-link:hover{
+    color: black !important; 
+    transition: all 0.5s;
+}
+.navbar{
+    margin: 30px 0;
+}
+.single-blog{
+    width: 100%;
+}
+.blog-desc{
+    margin: 70px 40px !important;
+}
+.blog-desc span{
+    color: #b4ad9e;
+}
+.blog-desc h1{
+    margin: 16px 0;
+}
+.blog-desc p{
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+.post{
+    margin: 70px 20px!important;
+}
+.gallery-desc{
+    margin-top: 3rem;
+}
+.gallery-desc span{
+    color: #b4ad9e;
+}
+.gallery-desc h2{
+    margin: 16px 0;
+}
+.gallery-desc p{
+    text-align: justify;
+    margin-top: 1rem;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.subscribe{
+    width: 100%;
+    background: #f0f0f0;
+    padding: 4rem;
+    text-align: center;
+}
+.subscribe h1{
+    font-weight: 500 !important;
+    margin-bottom: 2rem;
+}
+.subscribe input{
+    padding: 10px 0;
+    width: 40%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+form i{
+    font-size: 2rem;
+    margin-left: -2rem;
+}
+form input:focus{
+    outline: none;
+}
+.load-more{
+    margin: 80px 0 20px 0;
+    text-align: center;
+
+}
+.load-more button{
+    padding: 20px 50px;
+    background: transparent;
+    font-size: 20px;
+    color: #b4ad9e;
+}
+.load-more button:hover{
+    background: lightgrey;
+    color: white;
+}
+.footer{
+    width: 100%;
+    background: #f0f0f0;
+    padding: 10px;
+}
+.footer li{
+    display: inline-block;
+    margin: auto 1rem;
+}
+.footer a{
+    color: black !important;
+}
