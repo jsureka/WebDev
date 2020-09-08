@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    width: 100%;
+    background: url("../img/image-1.png") ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+}
+
+.nav-item{
+    margin-right: 3rem;
+}
+.nav-item a{
+    color: white !important;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.nav-item a:hover{
+    background: white;
+    opacity: 60%;
+    color: black !important;
+    transition: 0.5s ease-in-out;
+}
+.navbar{
+    margin-top: 0 !important ;
+    padding-top: 0px;
+}
+.jumbotron{
+    background: transparent;
+    color: white;
+}
+.lead{
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.web{
+    margin-top: 4rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1rem;
+
+}
+.fa-arrow-down{
+    color: white;
+}
+ .jumbotron .btn{
+    border-radius: 100%;
+    transform: scale(1.5);
+    
+    margin-top: 3rem;
+}
+.aboutme{
+    letter-spacing: 5px;
+}
+.dp img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.second-page h3{
+    letter-spacing: 3px;
+    margin-top: 3rem;
+}
+.second-page p{
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+.social i{
+    font-size: 2rem;
+    margin: 2rem;
+}
+.social a{
+    color: black;
+}
+.second-page .btn{
+    margin-top: 2rem;
+    background: white;
+    border: 2px solid grey;
+    color: darkgrey;
+}
+/*Third page starts here*/
+.third-page{
+    background: url(../img/image-2.png);
+    width: 100%;
+    background-repeat: no-repeat ;
+    background-position: center;
+    height: 100vh;
+    margin-top: 3rem;
+}
+.third-page h1{
+    color: whitesmoke;
+    letter-spacing: 6px;
+    margin-top: 10rem;
+
+}
+.third-page .icons{
+    display: inline-block;
+}
+.third-page .circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #e6e600
+    ;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 3rem;
+    margin-top: 4rem;
+}
+.third-page .fas{
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem;
+}
+.third-page h2{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.forth-page{
+    background: lightgray;
+    width: 100%;
+    height: 50vh;
+}
+.forth-page .row{
+    padding-top: 6rem;
+    font-style: italic;
+}
+.forth-page h2{
+    font-weight: 700;
+}
+.forth-page h3{
+    font-size: 18px;
+}
+.portfolio h2{
+    margin-top: 4rem;
+    letter-spacing: 10px;
+}
