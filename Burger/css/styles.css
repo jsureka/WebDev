@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,h2{
+    font-family: 'Alfa Slab One', cursive;
+}
+p,span,input{
+    font-family: 'Montserrat', sans-serif;
+}
+h3,h4,h5,h6,a{
+    font-family: 'Bebas Neue', cursive;
+}
+.banner{
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+    background-size: cover;
+    width: 100%;
+}
+.nav-item{
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin: auto 15px;
+}
+.navbar{
+    padding-top: 25px;
+}
+/*********************
+   Banner title section
+   *********************/
+   .banner-title{
+       margin-top: 150px;
+       color: #3d2514;
+   }
+.pretitle{
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 3px dashed #3d2514;
+    width: 350px;
+    padding: 5px;
+    text-align: center;
+}
+.title{
+   font-size: 6rem;
+   text-shadow: 4px 3px #fee7ba;
+}
+.subtitle{
+    font-size: 43px;
+    text-shadow: 3px 2px #fee7ba;
+}
+
+/*********************
+   Banner title section ends here
+   *********************/
+   /*********************
+   Blog section
+   *********************/
+.trytoday img{
+    position: absolute;
+    padding-right: 30px;
+}
+
+.trytoday h3{
+    font-size: 43px;
+}
+ .writings{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: white;
+}
+.upperblog{
+    height: 205px;
+}
+
+.upperblog img{
+    position: relative;
+}
+.lowerblog img{
+    position: relative;
+}
+.right-blog .writings{
+    position: relative;
+    top: -160px;
+    left: 10px;
+    color: white;
+}
+.right-blog h3{
+    font-size: 40px;
+}
+.writings h4{
+    margin: 0px;
+}
+.blog-section .button{
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue',cursive;
+}
+.blog-section .btn{
+    font-size: 1.5rem;
+}
+.menu{
+    margin-top: 30px;
+    color: #3d2514;
+}
+.menu .button .btn{
+    font-size: 1.5rem;
+    padding: 0px 30px;
+    background: red;
+}
+.btn a{
+    color: white;
+}
+.btn a:hover{
+    text-decoration: none;
+    color: white;
+}
+.discover{
+    margin-top: 6rem;
+    color: #3d2514;
+}
+.discover .row{
+    padding: 15px;
+   
+}
+.discover .owl-carousel:hover{
+    box-shadow: 3px 3px 30px black;
+    transition: 1s ease-in-out;
+}
+.owl-dots{
+    text-align: left;
+    position: relative;
+    top: -40px;
+    left: 10px;
+
+}
