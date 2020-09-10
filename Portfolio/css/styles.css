@@ -248,7 +248,7 @@
         width: 100%;
         margin-top: 1rem;
     }
-    @media ( max-width: 700px){
+    @media ( max-width: 768px){
         .third-page .circle{
             width: 50px;
             height: 50px;
@@ -279,7 +279,7 @@
             font-size: 12px;
         }
         hr{
-            margin-left: 8.5rem !important;
+            margin-left: 10rem !important;
         }
         .offset-1 h4{
             font-size: 12px;
@@ -289,6 +289,12 @@
         }
         .contactform{
             margin-top: 50px;
+        }
+        .testimonial{
+            margin-bottom: 300px;
+        }
+        .contact{
+            height: 110vh;
         }
         }
     
