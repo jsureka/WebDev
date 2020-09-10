@@ -218,6 +218,7 @@
     .offset-1 h2{
         letter-spacing: 7px;
         font-size: 24px;
+        margin-top: 0px;
     }
     .offset-1 h3{
         font-size: 12px;
@@ -293,7 +294,8 @@
     
 
         .owl-carousel .owl-item img {
+            width:auto !important;
              display: inline !important; 
-             width: auto !important; 
+              
              
         }
