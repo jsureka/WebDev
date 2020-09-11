@@ -131,9 +131,76 @@ h3,h4,h5,h6,a{
     transition: 1s ease-in-out;
 }
 .owl-dots{
-    text-align: left;
+    text-align: left !important;
     position: relative;
     top: -40px;
     left: 10px;
 
+}
+.owl-nav{
+    display: none;
+}
+/***********************
+CONTACT SECTION STARTS HERE
+************************/
+
+.contact{
+    margin-top: 3rem;
+    background: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #3d2514;
+    padding-top: 6rem;
+}
+.contactform{
+    margin-top: 80px;
+}
+.contact input{
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+.contact .btn{
+    width: 300px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    background: red;
+    
+}
+.contact .btn h2{
+    font-size: 20px !important;
+    padding-bottom: 0px;
+}
+/*****************
+FOOTER STARTS HERE
+******************/
+
+footer{
+    margin: 20px auto;
+    color: white;
+    height: 450px;
+}
+footer .row{
+    position: relative;
+    bottom: 400px;
+    left: 10px;
+}
+.address,.email{
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif !important;
+}
+.icons{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 10px;
+}
+.icons a{
+    color: white;
+}
+.icons a:hover{
+    text-decoration: none;
 }
