@@ -250,6 +250,9 @@ FOOTER STARTS HERE
     .pretitle{
         width: 300px;
     }
+    .container{
+        overflow: hidden;
+    }
     .title{
         font-size: 60px;
     }
