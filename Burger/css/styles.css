@@ -25,6 +25,11 @@ h3,h4,h5,h6,a{
     font-size: 18px;
     margin: auto 15px;
 }
+.nav-item:hover{
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+    
 .navbar{
     padding-top: 25px;
 }
@@ -111,12 +116,22 @@ h3,h4,h5,h6,a{
     padding: 0px 30px;
     background: red;
 }
+.menu .button .btn:hover{
+    background: white;
+    color: red;
+}
+.menu .button .btn:hover a{
+    text-decoration: none;
+    color: red;
+}
 .btn a{
     color: white;
 }
-.btn a:hover{
-    text-decoration: none;
-    color: white;
+.textbox1{
+    margin-top: 22px;
+}
+.textbox3{
+    margin-top: 35px;
 }
 .discover{
     margin-top: 6rem;
@@ -170,6 +185,13 @@ CONTACT SECTION STARTS HERE
     background: red;
     
 }
+.contact .btn:hover{
+    background-color: white;
+    color: red;
+}
+.contact .btn:hover h2{
+    color: red;
+}
 .contact .btn h2{
     font-size: 20px !important;
     padding-bottom: 0px;
@@ -177,30 +199,79 @@ CONTACT SECTION STARTS HERE
 /*****************
 FOOTER STARTS HERE
 ******************/
-
-footer{
-    margin: 20px auto;
-    color: white;
-    height: 450px;
+.bottom .container{
+    background-image: url(../img/footer.png);
+    margin-bottom: 30px;
 }
-footer .row{
-    position: relative;
+
+.bottom .row{
+    
     bottom: 400px;
     left: 10px;
 }
-.address,.email{
+.bottom .logo{
+    padding: 50px;
+    color: white;
+}
+.bottom .info{
+    margin-top: 150px;
+}
+.bottom .address,.email{
     font-size: 24px;
-    font-family: 'Montserrat',sans-serif !important;
+    font-family: 'Bebas Neue', cursive !important;
+    color: white;
+}
+.bottom .address span,.email span{
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive !important;
+    color: white;
+}
+.bottom h3{
+    color: white;
+    margin-top: 30px;
 }
 .icons{
     color: white;
     font-size: 30px;
     margin-top: 30px;
     letter-spacing: 10px;
+    text-align: right;
 }
 .icons a{
     color: white;
 }
 .icons a:hover{
     text-decoration: none;
+}
+@media( max-width: 768px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    .pretitle{
+        width: 300px;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .trytoday{
+        margin-bottom: 200px;
+    }
+    .writings{
+        margin-top: 70px;
+    }
+    .upperblog{
+        height: 150px;
+    }
+    .upperblog .writings h3{
+        font-size: 22px;
+    }
+    .menu .col-md-4{
+        margin-bottom: 20px;
+    }
+    .contact{
+        margin-bottom: 300px;
+    }
+    .contactform{
+       margin-left: 0px;
+    }
 }
