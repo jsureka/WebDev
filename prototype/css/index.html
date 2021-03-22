@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+      
+      #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      #myImg:hover {opacity: 0.7;}
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+      }
+      
+      /* Modal Content (image) */
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+      
+      /* Caption of Modal Image */
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+      }
+      
+      /* Add Animation */
+      .modal-content, #caption {  
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+      }
+      
+      @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+      }
+      
+      @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+      }
+      
+      /* The Close Button */
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      /* 100% Image Width on Smaller Screens */
+      @media only screen and (max-width: 700px){
+        .modal-content {
+          width: 100%;
+        }
+      }
+      </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+       
+    </header>
+   <div class=" mainpart">
+       <div class=" container">
+           <div class=" row">
+               <div class=" col-md-3 ">
+                    <h2 class=" text-center"> Available Documents</h2>
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'London')">Hardware</button>
+                      <button class="tablinks" onclick="openCity(event, 'Paris')">Software</button>
+                    </div>
+                    
+                    <!-- Tab content -->
+                    <div id="London" class="tabcontent">
+                      <h5><a href="#"> Document 1</a></h5>
+                      <h5><a href="#"> Document 2</a></h5>
+                      <h5><a href="#"> Document 3</a></h5>
+                    </div>
+                    
+                    <div id="Paris" class="tabcontent">
+                      <h5><a href="#"> Document a</a></h5>
+                       <h5><a href="#"> Document b</a></h5>
+                     <h5><a href="#"> Document c</a></h5>
+                    </div>
+               </div>
+               <div class=" col-md-7 ">
+                    <h2 class=" text-center"> SMXXX</h2>
+                    <h2 class=" text-center"> Device Description</h2>
+                    <p class=" text-justify mt-5 mb-5">
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sem libero, tin
+                        cidunt at dapibus vitae, laoreet et ex. Vivamus hendrerit mollis metus. Nunc quis
+                        turpis id urna feugiat faucibus. In luctus convallis pharetra. Nunc et auctor ligula.
+                         In bibendum, lorem nec maximus fringilla, justo urna fermentum lorem, et scelerisque nul
+                         la velit at neque. Nam ac neque vitae ipsum ullamcorper pretium. Aliquam in dui et eros vo
+                         lutpat vulputate sit amet sit amet libero. Aenean venenatis, erat nec sagittis consectetur,
+                          risus sem euismod nulla, sit amet tempus libero ipsum id massa. Etiam placerat eros et impe
+                          rdiet molestie. Aenean tempor, lectus non bibendum convallis, lacus urna dictum diam, eget 
+                          hendrerit dui eros cursus diam. Nulla pulvinar dignissim magna, eu volutpat lorem faucibus i
+                          d. Curabitur nisl velit, mattis quis lectus nec, consequat consectetur sem. Vestibulum males
+                          ada, ligula a pharetra iaculis, dui augue facilisis arcu, quis faucibus magna felis sit amet 
+                          diam. Donec ultricies, augue 
+                         auctor viverra, neque velit malesuada mauris, nec fermentum enim m
+
+                         assa ut orci.
+                    </p>
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'image1')">Generic Block Diagram</button>
+                      <button class="tablinks" onclick="openCity(event, 'image2')">Functional Block Diagram</button>
+                    </div>
+                    
+                    <!-- Tab content -->
+                    <div id="image1" class="tabcontent">
+                      <img id="myImg" src="download (1).png" class=" img-fluid">
+                                            <div id="myModal" class="modal text-center">
+                                              <span class="close">&times;</span>
+                                              <img class="modal-content" id="img01">
+                                             
+                                              <button class="btn mod"><i class="fa fa-download"></i><a href="download (1).png" download>Download</a></button>
+                                              <button class="btn mod"><i class="fa fa-print"></i><a href="download (1).png" onclick="window.print()">Print</a></button>
+                                            </div>
+                    </div>
+                    
+                    <div id="image2" class="tabcontent">
+                      <img id="myImg2" src="download.png" class=" img-fluid">
+                                                <div id="myModal2" class="modal text-center">
+                                                  <span class="close close2">&times;</span>
+                                                  <img class="modal-content" id="img02">
+                                                  <button class="btn mod"><i class="fa fa-download"></i><a href="download (1).png" download>Download</a></button>
+                                                  <button class="btn mod"><i class="fa fa-print"></i><a href="download (1).png" onclick="window.print()">Print</a></button>
+                                              
+                                                </div>
+                    </div>
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'features')">Features</button>
+                      <button class="tablinks" onclick="openCity(event, 'keyfeatures')">Key Feature</button>
+                    </div>
+                    
+                    <!-- Tab content -->
+                    <div id="features" class="tabcontent">
+                      <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                    </div>
+                    
+                    <div id="keyfeatures" class="tabcontent">
+                      <ul class="list-group">
+                        <li class="list-group-item">Cras jusdssto odio</li>
+                        <li class="list-group-item">Dapibus dsdsd facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porsdsta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibudssdlum at eros</li>
+                      </ul>
+                    </div>
+                
+                     
+                </div>
+            <div class=" col-md-2">
+                   
+            </div>
+           </div>
+       </div>
+   </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("myImg");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+      </script>
+       <script>
+        // Get the modal
+        var modal = document.getElementById("myModal2");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg2");
+        var modalImg = document.getElementById("img02");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close2")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
+        <script>
+          function openCity(evt, cityName) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+    
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+    
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+    
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+        </script>
+  </body>
+</html>
