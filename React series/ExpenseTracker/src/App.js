@@ -1,6 +1,6 @@
 import Expenses from "./components/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
-import React,{useState} from 'react';
+import React, { useState } from "react";
 
 const DUMMY_EXPENSES = [
   {
@@ -25,21 +25,40 @@ const DUMMY_EXPENSES = [
 ];
 
 function App() {
- 
-    const [expenses,setExpenses] = useState(DUMMY_EXPENSES);
-  
+  const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
-    const addExpenseHandler = (expense) => {
-      setExpenses((prevExpenses) => {
-        console.log(expense);
-        return [expense,...prevExpenses];
-      });
+  const addExpenseHandler = (expense) => {
+    setExpenses((prevExpenses) => {
+      console.log(expense);
+      return [expense, ...prevExpenses];
+    });
   };
- 
+
+  let [showMain, setShowMain] = useState(false);
+
+  const showMainHandler = () => {
+    setShowMain(true);
+  };
+
   return (
     <div>
-      <NewExpense onAddExpense={addExpenseHandler} />
-      <Expenses items={expenses} />
+      {!showMain && (
+        <div className="new-expense">
+          <h2>Welcome To Expense Tracker</h2>
+          <br></br>
+          <br></br>
+          <button onClick={showMainHandler}>Get Started</button>
+          <h4>Designed and Coded by Jitesh Sureka.</h4>
+          <h4> Github : jsureka</h4>
+        </div>
+      )}
+      {showMain && (
+        <div>
+          {" "}
+          <NewExpense onAddExpense={addExpenseHandler} />
+          <Expenses items={expenses} />
+        </div>
+      )}
     </div>
   );
 }
